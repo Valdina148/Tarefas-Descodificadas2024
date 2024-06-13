@@ -1,0 +1,143 @@
+<html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid</title>
+    <h1>Grid com imagens</h1>
+
+<div class= "container">
+<div class="item item-1"><img src="https://cdn.pixabay.com/photo/2017/02/10/13/46/orchids-2055192_1280.jpg" height="90%" width="80%"></div>
+<div class="item item-2">Flor<img src="https://img.elo7.com.br/product/160x127/418FE30/matriz-de-bordado-botao-de-rosa-matrizes.jpg" height="100%" width="100%"></div>
+<div class="item item-3">Mulher<img src="https://img.elo7.com.br/product/160x127/402435B/matriz-de-bordado-moca-segurando-botao-de-rosa-moca-segurando-rosa.jpg" height="100%" width="100%"></div>
+<div class="item item-4">Floresta<img src="https://s2-g1.glbimg.com/eyU7n1fTYTEF_eIwuSmjOsG-iRM=/0x0:1356x757/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2017/09/05/amazonia_3.jpg"  height="100%" width="95%"></div>
+<div class="item item-5">Icentivo a coleta seletiva<img src="https://i0.wp.com/www.larplasticos.com.br/wp-content/uploads/2018/07/lixeiras-de-coleta-seletiva-larplasticos.jpg?w=700&ssl=1" height="100%" width="80%"></div>
+<div class="item item-6">Mapa<img src="https://img.elo7.com.br/product/zoom/23CB936/banner-mapa-do-brasil-65x65cm-brasil.jpg"height="90%" width="90%"></div>
+<div class="item item-7">Todos pela reciclagem<img src="https://img.freepik.com/vetores-gratis/maos-apoiando-sinal-de-reciclagem-de-gradiente_78370-853.jpg?w=826&t=st=1716519245~exp=1716519845~hmac=b65144cf79510dfe581849d1a9a7d315fa3460925758f0a65aea0a675425fff1" height="90%" width="85%"></div>
+<div class="item item-8">Ada<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Ada_lovelace.jpg" height="100%" width="100%"></div>
+<div class="item item-9">Girassol<img src="https://i.pinimg.com/736x/bc/ad/b8/bcadb894f9c5e6fe59db0b382672aba9.jpg" height="100%" width="100%"></div>
+<div class="item item-10">Seletores<img src="https://thumbs.dreamstime.com/b/seletor-colorido-do-telefone-vetor-teclas-lustrosas-135843027.jpg"  height="80%" width="80%"></div>
+</div>
+
+
+
+
+<!--Estilização do Grid-->
+
+<Style>
+   
+.container{
+display: grid;   
+grid-template-rows: 200px 300px 300px; 
+grid-template-columns: 200px 200px 300px;
+width: max-content;
+gap: 0.1rem;
+background-color: rgb(245, 151, 240);
+}
+
+.item{
+width: 95%;
+height: 95%;
+overflow: hidden;
+justify-self: auto;
+    
+}
+       
+.item-1{
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 1;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.item-2{
+    grid-column: 3/ span 2;
+    grid-row: 1 / span 1;
+    text-align: center; 
+}
+
+.item-3{
+    grid-column: 5/ span 3;
+    grid-row: 1 / span 1;
+    text-align: center;  
+}
+
+.item-4{
+    grid-column: 1/ span 4;
+    grid-row:  3/ span 1;
+    text-align: center;   
+}
+
+.item-5{
+    grid-column: 4/ span 8;
+    grid-row: 3/ span 1;
+    text-align: center;
+}
+
+.item-6{
+    grid-column: 4/ span 4;
+    grid-row: 2/ span 1;
+    text-align: center;   
+}
+
+.item-7{
+    grid-column: 1/ span 4;
+    grid-row: 2 / span 1;
+    text-align: center;
+    
+}
+
+.item-8{
+    grid-column: 8/ span 4;
+    grid-row: 2/ span 1;
+    text-align: center;
+}
+
+.item-9{
+    grid-column: 8/ span 2;
+    grid-row: 1 / span 1;
+    text-align: center;  
+    
+}
+
+.item-10{
+    grid-column: 10/ span 2;
+    grid-row: 1/ span 1;
+    text-align: center; 
+}
+
+</Style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
